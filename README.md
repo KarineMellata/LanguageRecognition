@@ -9,7 +9,9 @@ First approach will be using word n grams with n=2
 Bayes is based on conditional probability :
 
 P(class|data) = P(data|class)*P(class) / P(data)
+
 Which is equivalent to
+
 Posterior = likelihood * priori / evidence
 
 Strong NB assumptions that make this work:
