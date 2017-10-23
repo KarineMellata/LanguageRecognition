@@ -4,6 +4,7 @@ Simple language recognition classifier using Naive Bayes approach
 All in Jupyter Notebook files
 ## Approach
 First approach will be using word n grams with n=2
+Laplace smoothing applied to likelihood with a smoothing factor of 1
 
 ### Some useful notes on theory
 Bayes is based on conditional probability :
@@ -15,7 +16,7 @@ Which is equivalent to
 Posterior = likelihood * priori / evidence
 
 Strong NB assumptions that make this work:
-All features are independant (which is rarely true irl but still yields good predictions in practice)
+All features are independant (which is rarely true in real life but still yields good predictions in practice)
 
 ## Information on dataset
 0: Slovak
