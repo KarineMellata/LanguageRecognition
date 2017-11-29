@@ -1,5 +1,5 @@
 # LanguageRecognition
-Simple language recognition classifier using Naive Bayes approach
+Simple hand-implemented language recognition classifier using Naive Bayes approach
 
 All in Jupyter Notebook files
 ## Approach
